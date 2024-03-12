@@ -1,5 +1,7 @@
 .Navigation {
   display: flex;
+  flex-direction: row;
+  width: 100vh;
   margin-top: 0%;
   padding-top: 0%;
   justify-content: space-evenly;

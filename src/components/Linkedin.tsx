@@ -14,9 +14,10 @@ import '../styles/Linkedin.scss';
 function Linkedin() {
 
   return (
-    <a onClick={() => window.open('http://www.linkedin.com/in/lawrencehobson')}>
-      <FaLinkedin />
-    </a>
+      <a onClick={() => window.open('http://www.linkedin.com/in/lawrencehobson')}>
+        <FaLinkedin />
+      </a>
+
   );
 }
 

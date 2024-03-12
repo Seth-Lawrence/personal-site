@@ -15,9 +15,9 @@ import '../styles/Signature.scss';
 function Signature() {
 
   return (
-      <div className="Signature">
+      <span className="Signature">
           Seth Hobson
-      </div>
+      </span>
   )
 }
 

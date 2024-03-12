@@ -11,7 +11,6 @@ import Skills from './Skills';
 import Projects from './Projects';
 
 /**
- *
  * props: none
  *
  * state: showHome, showProjects, showResume, isLoading
