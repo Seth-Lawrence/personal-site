@@ -1,6 +1,7 @@
 
 import '../styles/App.css';
 import { useState } from 'react';
+import Navigation from './Navigation';
 
 /**
  *
@@ -8,8 +9,7 @@ import { useState } from 'react';
  *
  * state: showHome, showProjects, showResume, isLoading
  *
- * App => Navigation, ProfilePicture, LeftNav { Home, About, skillb
- * jects }
+ * App => Navigation, ProfilePicture, LeftNav, { Home, About, skills, projects }
  */
 
 function App() {
