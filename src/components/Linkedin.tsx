@@ -13,8 +13,10 @@ import { FaLinkedin } from "react-icons/fa";
 function Linkedin() {
 
   return (
-    <FaLinkedin />
-  )
+    <a onClick={() => window.open('http://www.linkedin.com/in/lawrencehobson')}>
+      <FaLinkedin />
+    </a>
+  );
 }
 
 export default Linkedin;

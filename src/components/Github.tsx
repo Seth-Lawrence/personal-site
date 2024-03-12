@@ -13,8 +13,10 @@ import {FaGithub} from 'react-icons/fa';
 function Github() {
 
   return (
-    <FaGithub />
-  )
+    <a onClick={() => window.open('http://github.com/seth-lawrence')}>
+      <FaGithub />
+    </a>
+  );
 }
 
 export default Github
