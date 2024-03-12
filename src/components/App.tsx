@@ -1,7 +1,16 @@
 
 import '../styles/App.css';
 import { useState } from 'react';
+
 import Navigation from './Navigation';
+import ProfilePicture from './ProfilePicture';
+import LeftNav from './LeftNav';
+import About from './About';
+import Home from './Home';
+import Skills from './Skills';
+import Projects from './Projects';
+
+
 
 /**
  *
@@ -20,6 +29,10 @@ function App() {
   const [showResume, setShowResume] = useState<Boolean>(false);
   const [isLoading, setIsLoading] = useState<Boolean>(false);
 
+
+  /**
+   * determines whether about, skills, projects, or home is displayed.
+   */
   function handleClick(section: 'about' | 'skills' | 'pojects' | 'home'): void {
     setIsLoading(true);
     (showHome && setShowHome(false));
@@ -51,7 +64,7 @@ function App() {
   return (
     <section className='App'>
       <aside>
-        <Navigation redirect={redirect} />
+        <Navigation />
         <ProfilePicture />
         <LeftNav handleClick={handleClick} />
       </aside>

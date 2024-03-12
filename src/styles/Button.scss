@@ -1,0 +1,19 @@
+.Button-container {
+  margin: 1rem;
+  margin-left: 5rem;
+  size: 7rem;
+}
+
+.Button {
+  width: 7rem;
+  height: 2rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #000;
+  border: none;
+}
+
+.Button:hover {
+  border-style: double;
+  border-color: antiquewhite;
+}
