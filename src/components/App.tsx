@@ -10,8 +10,6 @@ import Home from './Home';
 import Skills from './Skills';
 import Projects from './Projects';
 
-
-
 /**
  *
  * props: none
@@ -60,7 +58,7 @@ function App() {
 
     setIsLoading(false);
   }
-//TODO: add browser router
+  //TODO: add browser router
   return (
     <section className='App'>
       <aside>
