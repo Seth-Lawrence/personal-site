@@ -47,7 +47,7 @@ function App() {
 
     setIsLoading(false);
   }
-
+//TODO: add browser router
   return (
     <section className='App'>
       <aside>

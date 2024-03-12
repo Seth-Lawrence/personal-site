@@ -1,4 +1,3 @@
-
 /**
  * renders signature
  *

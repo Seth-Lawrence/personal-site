@@ -1,6 +1,5 @@
 import { FaLinkedin } from "react-icons/fa";
 
-
 /**
  * renders Linkedin icon
  *
@@ -17,6 +16,5 @@ function Linkedin() {
     <FaLinkedin />
   )
 }
-
 
 export default Linkedin;
