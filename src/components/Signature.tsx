@@ -1,3 +1,5 @@
+import '../styles/Signature.scss';
+
 /**
  * renders signature
  *

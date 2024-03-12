@@ -1,9 +1,13 @@
-import { SiTypescript,
+import {
+  SiTypescript,
   SiPython,
   SiJavascript,
   SiHtml5,
   SiCss3,
-  SiPostgresql } from "react-icons/si";
+  SiPostgresql
+} from "react-icons/si";
+
+import '../styles/Languages.scss';
 
 /** renders language icons
  *
@@ -20,14 +24,14 @@ function Languages() {
       <div>
         Languages:
       </div>
-    <div>
-      <SiTypescript />
-      <SiJavascript />
-      <SiPython />
-      <SiHtml5 />
-      <SiCss3 />
-      <SiPostgresql />
-    </div>
+      <div>
+        <SiTypescript />
+        <SiJavascript />
+        <SiPython />
+        <SiHtml5 />
+        <SiCss3 />
+        <SiPostgresql />
+      </div>
     </div>
   );
 }

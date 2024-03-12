@@ -1,4 +1,5 @@
 import {FaGithub} from 'react-icons/fa';
+import '../styles/Github.scss';
 
 /**
  * renders github icon

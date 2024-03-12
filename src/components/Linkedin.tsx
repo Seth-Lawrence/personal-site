@@ -1,4 +1,5 @@
 import { FaLinkedin } from "react-icons/fa";
+import '../styles/Linkedin.scss';
 
 /**
  * renders Linkedin icon

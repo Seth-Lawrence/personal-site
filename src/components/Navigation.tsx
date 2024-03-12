@@ -4,6 +4,8 @@ import { Navbar, NavLink } from 'reactstrap';
 
 import Signature from "./Signature";
 
+import '../styles/Navigation.scss';
+
 /**
  * renders heading navigation bar
  *

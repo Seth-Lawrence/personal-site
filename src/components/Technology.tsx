@@ -16,6 +16,8 @@ import {
   SiJson
 } from "react-icons/si";
 
+import '../styles/Technology.scss';
+
 /** renders technology icons
  *
  * props: none

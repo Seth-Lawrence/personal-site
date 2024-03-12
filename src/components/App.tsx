@@ -1,5 +1,5 @@
 
-import '../styles/App.css';
+import '../styles/App.scss';
 import { useState } from 'react';
 
 import Navigation from './Navigation';

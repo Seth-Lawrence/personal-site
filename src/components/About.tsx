@@ -1,4 +1,5 @@
 import Signature from "./Signature";
+import '../styles/About.scss';
 
 /**
  * renders about section

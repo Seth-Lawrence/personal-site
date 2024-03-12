@@ -1,5 +1,7 @@
 import Technology from "./Technology";
 import Languages from "./Languages";
+
+import '../styles/Skills.scss';
 /**
  *   renders skills page
  *
