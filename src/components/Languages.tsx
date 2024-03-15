@@ -20,7 +20,7 @@ import '../styles/Languages.scss';
 
 function Languages() {
   return (
-    <div>
+    <div className='Skills'>
       <div>
         Languages:
       </div>

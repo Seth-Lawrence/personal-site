@@ -19,13 +19,11 @@ import '../styles/Navigation.scss';
 function Navigation() {
 
   return (
-  <div className='Navigation'>
-  <Navbar className=''>
+  <Navbar>
     <Signature />
     <NavLink><Linkedin /></NavLink>
     <NavLink><Github  /></NavLink>
   </Navbar>
-</div>
 );
 
 }
