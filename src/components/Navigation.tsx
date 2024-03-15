@@ -20,7 +20,7 @@ function Navigation() {
 
   return (
   <div className='Navigation'>
-  <Navbar className='Navigation'>
+  <Navbar className=''>
     <Signature />
     <NavLink><Linkedin /></NavLink>
     <NavLink><Github  /></NavLink>
