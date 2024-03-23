@@ -1,4 +1,5 @@
 import Button from "./Button";
+import ProfilePicture from "./ProfilePicture";
 
 interface leftNavProps {
   handleClick: Function
@@ -17,7 +18,8 @@ interface leftNavProps {
 function LeftNav({ handleClick }: leftNavProps) {
 
   return (
-    <div>
+    <div className='LeftNav'>
+      <ProfilePicture />
       <Button handleClick={handleClick} text='About' />
       <Button handleClick={handleClick} text='Skills' />
       <Button handleClick={handleClick} text='Projects' />

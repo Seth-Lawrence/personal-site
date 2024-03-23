@@ -59,10 +59,11 @@ function App() {
   }
   //TODO: add browser router
   return (
-    <section className='App'>
-      <aside>
+    <section>
+      <div className='Navigation'>
         <Navigation />
-        <ProfilePicture />
+      </div>
+      <aside>
         <LeftNav handleClick={handleClick} />
       </aside>
       <section>

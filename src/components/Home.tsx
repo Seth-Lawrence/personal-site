@@ -19,7 +19,7 @@ function Home() {
         <h3>And I'm a Software Engineer</h3>
       </div>
       <div className='Home-description'>
-        I look forward to making and significant and positive
+        I look forward to making a significant and positive
         contribution to your organization
       </div>
     </div>
