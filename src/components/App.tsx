@@ -7,6 +7,7 @@ import Github from './Github';
 import '../styles/Signature.scss'
 import '../styles/Navbar.scss'
 import '../styles/App.scss';
+import '../styles/RoutesList.scss';
 
 import { Navbar } from 'reactstrap';
 import RoutesList from './RoutesList';
@@ -29,7 +30,9 @@ function App() {
       <Navbar className='Navbar'><Linkedin /> <Github /></Navbar>
       <BrowserRouter>
         <Navbar><Navigation /></Navbar>
+        <div className='RoutesList'>
         <RoutesList />
+        </div>
       </BrowserRouter>
     </div>
   )
