@@ -1,14 +1,13 @@
 
-import '../styles/App.scss';
-import { useState } from 'react';
-
 import Navigation from './Navigation';
-import ProfilePicture from './ProfilePicture';
-import LeftNav from './LeftNav';
-import About from './About';
-import Home from './Home';
-import Skills from './Skills';
-import Projects from './Projects';
+import Signature from './Signature';
+import Linkedin from './Linkedin';
+import Github from './Github';
+
+import '../styles/Signature.scss'
+import '../styles/Navbar.scss'
+import '../styles/App.scss';
+
 import { Navbar } from 'reactstrap';
 import RoutesList from './RoutesList';
 import { BrowserRouter } from 'react-router-dom';
@@ -25,6 +24,8 @@ function App() {
 
   return (
     <div className='App'>
+      <Signature />
+      <Navbar className='Navbar'><Linkedin /> <Github /></Navbar>
       <BrowserRouter>
         <Navbar><Navigation /></Navbar>
         <RoutesList />

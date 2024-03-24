@@ -14,11 +14,11 @@ import '../styles/Linkedin.scss';
 function Linkedin() {
 
   return (
-    <div>
+    <span>
     <a className='Linkedin' onClick={() => window.open('http://www.linkedin.com/in/lawrencehobson')}>
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
     </a>
-    </div>
+    </span>
   );
 }
 

@@ -20,7 +20,6 @@ function Navigation() {
 
   return (
   <nav className='Navigation'>
-    <Signature />
     <Linkedin />
     <Github  />
     <NavLink to='/skills'>Skills</NavLink>

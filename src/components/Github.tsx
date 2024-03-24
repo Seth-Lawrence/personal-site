@@ -14,11 +14,11 @@ import '../styles/Github.scss';
 function Github() {
 
   return (
-    <div>
+    <span>
       <a className='Github' onClick={() => window.open('http://github.com/seth-lawrence')}>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
       </a>
-    </div>
+    </span>
   );
 }
 
