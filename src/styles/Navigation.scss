@@ -14,3 +14,17 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+.Navigation a {
+  padding: .4rem;
+  font-weight: 700;
+  color: #fff;
+  // background-color: #191E21;
+  border: none;
+  justify-content: center;
+}
+
+.Navigation a:hover {
+  border-style: double;
+  border-color: antiquewhite;
+}

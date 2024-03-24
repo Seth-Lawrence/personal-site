@@ -1,8 +1,5 @@
-import Linkedin from "./Linkedin";
-import Github from "./Github";
-import { NavLink, Link } from 'react-router-dom';
 
-import Signature from "./Signature";
+import { NavLink } from 'react-router-dom';
 
 import '../styles/Navigation.scss';
 
