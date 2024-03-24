@@ -18,7 +18,7 @@ function Home() {
       <div className='Home'>
         <ProfilePicture />
         <h1>Hi, I'm Seth</h1>
-        <h2>I'm a Software Engineer with a background in product</h2>
+        <h2>I'm a Software Engineer with a background in Product</h2>
       </div>
 
   );

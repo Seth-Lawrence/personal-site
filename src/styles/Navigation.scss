@@ -16,15 +16,13 @@
 }
 
 .Navigation a {
-  padding: .4rem;
+  padding: .2rem .3rem;
   font-weight: 700;
   color: #fff;
-  // background-color: #191E21;
-  border: none;
   justify-content: center;
 }
 
 .Navigation a:hover {
-  border-style: double;
-  border-color: antiquewhite;
+  outline: .07rem dotted white;
+  border-radius: 10%;
 }

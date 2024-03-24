@@ -18,9 +18,9 @@ function Navigation() {
   return (
   <nav className='Navigation'>
     <NavLink to='/skills'>Skills</NavLink>
-    <NavLink to='/Projects'>Projects</NavLink>
-    <NavLink to='/About'>About</NavLink>
-    <NavLink to='/Home'>Home</NavLink>
+    <NavLink to='/projects'>Projects</NavLink>
+    <NavLink to='/about'>About</NavLink>
+    <NavLink to='/home'>Home</NavLink>
   </nav>
 );
 

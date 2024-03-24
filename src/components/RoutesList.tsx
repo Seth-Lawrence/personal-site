@@ -9,9 +9,10 @@ function RoutesList() {
   return (
     <Routes>
       <Route path='/skills' element={<Skills />} />
-      <Route path='/project' element={<Projects />} />
+      <Route path='/projects' element={<Projects />} />
       <Route path='/about' element={<About />} />
       <Route path='/home' element={<Home />} />
+      <Route path='/*' element={<Home />} />
     </Routes>
   );
 }
