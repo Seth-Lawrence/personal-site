@@ -17,12 +17,12 @@
 
 .Navigation a {
   padding: .2rem .3rem;
+  border-radius: 20%;
   font-weight: 700;
   color: #fff;
   justify-content: center;
 }
 
 .Navigation a:hover {
-  outline: .07rem dotted white;
-  border-radius: 10%;
+  box-shadow: 0rem 0rem 1rem white;
 }

@@ -21,7 +21,8 @@ function Button(
 
   return (
     <div className='Button-container'>
-      <button className='Button' onClick={(): void => { handleClick(text); }}>{text}</button>
+      <button className='Button' onClick={(): void => { handleClick(text); }}>
+        {text}</button>
     </div>
   );
 }
