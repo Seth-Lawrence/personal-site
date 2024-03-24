@@ -20,9 +20,10 @@ function Navigation() {
 
   return (
   <nav className='Navigation'>
-    <Linkedin />
-    <Github  />
     <NavLink to='/skills'>Skills</NavLink>
+    <NavLink to='/Projects'>Projects</NavLink>
+    <NavLink to='/About'>About</NavLink>
+    <NavLink to='/Home'>Home</NavLink>
   </nav>
 );
 
