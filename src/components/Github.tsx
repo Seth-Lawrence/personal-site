@@ -1,5 +1,5 @@
-import {FaGithub} from 'react-icons/fa';
 import '../styles/Github.scss';
+
 
 /**
  * renders github icon
@@ -14,10 +14,12 @@ import '../styles/Github.scss';
 function Github() {
 
   return (
-    <a onClick={() => window.open('http://github.com/seth-lawrence')}>
-      <FaGithub />
-    </a>
+    <div>
+      <a className='Github' onClick={() => window.open('http://github.com/seth-lawrence')}>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+      </a>
+    </div>
   );
 }
 
-export default Github
+export default Github;

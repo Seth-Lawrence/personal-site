@@ -1,6 +1,6 @@
 import Linkedin from "./Linkedin";
 import Github from "./Github";
-import { Navbar, NavLink } from 'reactstrap';
+import { NavLink, Link } from 'react-router-dom';
 
 import Signature from "./Signature";
 
@@ -19,11 +19,12 @@ import '../styles/Navigation.scss';
 function Navigation() {
 
   return (
-  <Navbar>
+  <nav className='Navigation'>
     <Signature />
-    <NavLink><Linkedin /></NavLink>
-    <NavLink><Github  /></NavLink>
-  </Navbar>
+    <Linkedin />
+    <Github  />
+    <NavLink to='/skills'>Skills</NavLink>
+  </nav>
 );
 
 }
