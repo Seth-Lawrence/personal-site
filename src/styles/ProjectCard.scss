@@ -1,7 +1,9 @@
 .ProjectCard {
-    width: 20rem;
-    height: 15rem;
-    outline: dotted #fff;
+    width: 15rem;
+    height: 23rem;
+    border: .1rem solid white;
+    background-color: #191E21;
+    flex-shrink: 1;
 }
 
 .ProjectCard img {
