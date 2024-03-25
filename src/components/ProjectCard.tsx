@@ -1,4 +1,5 @@
 import '../styles/Button.scss';
+import '../styles/ProjectCard.scss';
 
 interface ProjectCardProps {
   imagePath: string,

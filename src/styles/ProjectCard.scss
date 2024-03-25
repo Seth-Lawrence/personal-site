@@ -1,0 +1,15 @@
+.ProjectCard {
+    width: 20rem;
+    height: 15rem;
+    outline: dotted #fff;
+}
+
+.ProjectCard img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.ProjectCard:hover {
+    box-shadow: 0rem 0rem 1rem white;
+}
+
