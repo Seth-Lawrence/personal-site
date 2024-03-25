@@ -1,4 +1,4 @@
-import '../styles/Button'
+import '../styles/Button.scss';
 
 interface ProjectCardProps {
   imagePath: string,
@@ -10,7 +10,7 @@ interface ProjectCardProps {
 
 
 function ProjectCard(
-  { imagePath, projDesc, imageDesc, git, demo=null }: ProjectCardProps
+  { imagePath, projDesc, imageDesc, git, demo = null }: ProjectCardProps
 ) {
 
   return (
