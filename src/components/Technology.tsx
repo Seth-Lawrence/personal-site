@@ -1,19 +1,7 @@
 import {
-  SiJquery,
-  SiReact,
-  SiBootstrap,
   SiRender,
   SiJsonwebtokens,
-  SiJasmine,
-  SiJest,
-  SiBabel,
   SiJinja,
-  SiWebpack,
-  SiGit,
-  SiVisualstudiocode,
-  SiInsomnia,
-  SiFlask,
-  SiJson
 } from "react-icons/si";
 
 import '../styles/Technology.scss';
