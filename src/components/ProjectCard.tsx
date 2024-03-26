@@ -24,8 +24,14 @@ function ProjectCard(
       <div className='ProjectCard-desc'>
         {projDesc}
       </div>
-      {demo && <button onClick={() => window.open(demo)} className='Button'>Demo </button>}
-      <a href={git}><button className='Button'>Github</button></a>
+      <div className='ProjectCard-btn'>
+        {demo &&
+          <button onClick={() => window.open(demo)}
+            className='Button'>Demo </button>}
+
+        <button onClick={() => window.open(git)}
+          className='Button'>Github</button>
+      </div>
     </div>
   );
 }

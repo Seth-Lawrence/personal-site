@@ -1,4 +1,4 @@
-
+import RecentProjects from "./RecentProjects";
 
 // import '../styles/Projects.scss';
 
@@ -15,7 +15,7 @@ function Projects() {
 
   return (
     <div>
-      hello world
+      <RecentProjects />
     </div>
   );
 }

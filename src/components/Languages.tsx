@@ -1,12 +1,3 @@
-import {
-  SiTypescript,
-  SiPython,
-  SiJavascript,
-  SiHtml5,
-  SiCss3,
-  SiPostgresql
-} from "react-icons/si";
-
 import '../styles/Languages.scss';
 
 /** renders language icons
@@ -25,12 +16,12 @@ function Languages() {
         Languages:
       </div>
       <div>
-        <SiTypescript />
-        <SiJavascript />
-        <SiPython />
-        <SiHtml5 />
-        <SiCss3 />
-        <SiPostgresql />
+      <i className="devicon-typescript-plain colored"></i>
+      <i className="devicon-javascript-plain colored"></i>
+      <i className="devicon-python-plain-wordmark colored"></i>
+      <i className="devicon-html5-plain-wordmark colored"></i>
+      <i className="devicon-css3-plain-wordmark colored"></i>
+      <i className="devicon-postgresql-plain-wordmark colored"></i>
       </div>
     </div>
   );

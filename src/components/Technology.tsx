@@ -35,21 +35,23 @@ function Technology() {
         Technology:
       </div>
       <div>
-        <SiJquery />
-        <SiReact />
-        <SiBootstrap />
+      <i className="devicon-jquery-plain-wordmark colored"></i>
+      <i className="devicon-react-original-wordmark colored"></i>
+      <i className="devicon-bootstrap-plain-wordmark colored"></i>
+        <i className="devicon-jasmine-original-wordmark colored"></i>
+        <i className="devicon-jest-plain colored"></i>
+        <i className="devicon-babel-plain colored"></i>
+        <i className="devicon-jira-plain-wordmark colored"></i>
+        <i className="devicon-webpack-plain-wordmark colored"></i>
+        <i className="devicon-git-plain-wordmark colored"></i>
+        <i className="devicon-github-original-wordmark"></i>
+        <i className="devicon-flask-original-wordmark colored"></i>
+        <i className="devicon-json-plain colored"></i>
+        <i className="devicon-insomnia-plain-wordmark colored"></i>
+        <i className="devicon-vscode-plain-wordmark colored"></i>
         <SiRender />
         <SiJsonwebtokens />
-        <SiJasmine />
-        <SiJest />
-        <SiBabel />
         <SiJinja />
-        <SiWebpack />
-        <SiGit />
-        <SiVisualstudiocode />
-        <SiInsomnia />
-        <SiFlask />
-        <SiJson />
       </div>
     </div>
   );
