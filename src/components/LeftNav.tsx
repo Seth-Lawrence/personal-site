@@ -1,5 +1,4 @@
 import Button from "./Button";
-import ProfilePicture from "./ProfilePicture";
 
 interface leftNavProps {
   handleClick: Function

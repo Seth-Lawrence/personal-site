@@ -1,6 +1,6 @@
 import ProfilePicture from './ProfilePicture';
 import RecentProjects from './RecentProjects';
-import ProjectCard from './ProjectCard';
+
 
 import '../styles/Home.scss';
 

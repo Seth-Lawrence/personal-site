@@ -1,6 +1,5 @@
 import Signature from "./Signature";
 import '../styles/About.scss';
-import Initials from "./Initials";
 
 /**
  * renders about section

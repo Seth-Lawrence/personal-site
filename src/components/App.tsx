@@ -1,6 +1,5 @@
 
 import Navigation from './Navigation';
-import Signature from './Signature';
 import Linkedin from './Linkedin';
 import Github from './Github';
 
