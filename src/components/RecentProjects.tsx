@@ -14,7 +14,7 @@ function RecentProjects() {
         projDesc="job application using react and express"
         imageDesc="jobly homepage"
         git="https://github.com/Seth-Lawrence/react-jobly"
-        demo='jobly.seth-hobson.com/'
+        demo='https://jobly.seth-hobson.com/'
       />
       </div>
       <ProjectCard
@@ -23,7 +23,7 @@ function RecentProjects() {
         projDesc="Twitter clone using Python+Flask & Jinja"
         imageDesc="warbler homepage"
         git="https://github.com/Seth-Lawrence/warbler"
-        demo='warbler.seth-hobson.com/'
+        demo='https://warbler.seth-hobson.com/'
       />
       </div>
     </div>
