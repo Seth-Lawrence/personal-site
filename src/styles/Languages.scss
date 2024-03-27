@@ -1,12 +1,16 @@
-.Skills {
-    size: 2rem;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1vh;
+.Languages-title {
     color: #fff;
-    margin-top: 10vh;
-    padding-left: 2%;
-    padding-right: 10%;
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.Languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 7rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}

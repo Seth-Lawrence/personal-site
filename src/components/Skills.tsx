@@ -14,10 +14,14 @@ import '../styles/Skills.scss';
 function Skills() {
 
   return (
-      <div className='Skills'>
+      <section className='Skills'>
+        <div>
           <Languages />
+        </div>
+        <div>
           <Technology />
-      </div>
+        </div>
+      </section>
   )
 }
 
