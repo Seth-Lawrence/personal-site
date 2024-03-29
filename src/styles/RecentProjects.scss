@@ -1,9 +1,13 @@
+.RecentProjects-header {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
 .RecentProjects-Container {
     display: flex;
     justify-content: space-between;
-    width: 60vw;
-    height: 100vh;
     flex-shrink: 1;
     flex-wrap: wrap;
 }
-

@@ -27,8 +27,7 @@ function ProjectCard(
       <div className='ProjectCard-btn'>
         {demo &&
           <button onClick={() => window.open(demo)}
-            className='Button'>Demo </button>}
-
+            className='Button'>Demo</button>}
         <button onClick={() => window.open(git)}
           className='Button'>Github</button>
       </div>
