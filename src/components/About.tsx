@@ -15,8 +15,10 @@ import '../styles/About.scss';
 function About() {
 
   return (
-      <section className='About'>
-          <div>
+    <section>
+      <h1 className='About-header'>About Me</h1>
+      <div className='About'>
+
           Hi, I’m Seth, and I'm a software engineer and got my start in
           localization and analytics. In my previous roles, it's always
           been important to me to continually learn and grow my skills
@@ -31,7 +33,6 @@ function About() {
           which content to auto-translate.
           <br></br>
           <br></br>
-          </div>
           I also enjoy working and collaborating on a team on complex
           questions where the answer might be more complex than just
           'hey this is the right direction'. In localization there's
@@ -43,19 +44,17 @@ function About() {
           which was a process I really enjoyed.
           <br></br>
           <br></br>
-          <div>
           At this point I want to leverage my current skills and continue
           building and working on interesting products, while also being
           in an environment where I can constantly learn and grow and
           increase my impact. I've found that I’m really passionate
           software engineering and I look forward to using my passion
           to to make a significant and positive impact.
-          </div>
-          <br></br>
-          <div>
+        </div>
+        <div>
           <Signature />
-          </div>
-      </section>
+        </div>
+    </section>
   );
 }
 
