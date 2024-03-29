@@ -9,15 +9,16 @@
 // }
 
 .Navigation {
-  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 2rem;
 }
 
 .Navigation a {
-  padding: .2rem;
   border-radius: 20%;
   font-weight: 700;
   color: #fff;
