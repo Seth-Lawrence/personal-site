@@ -1,15 +1,25 @@
+.Languages-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+}
+
 .Languages-title {
+    display: flex;
     color: #fff;
-    font-size: 4rem;
+    font-size: 3rem;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 2rem;
 }
 
 .Languages {
     display: flex;
-    flex-wrap: wrap;
+    width: 80vw;
+    flex-wrap: none;
     justify-content: space-around;
-    font-size: 7rem;
+    font-size: 6rem;
     margin-left: 4rem;
     margin-right: 2rem;
     margin-bottom: 2rem;

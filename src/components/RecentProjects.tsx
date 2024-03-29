@@ -5,7 +5,7 @@ function RecentProjects() {
 
   return (
     <div>
-      <h3>Recent Projects</h3>
+      <h1 className='RecentProjects-header'>Recent Projects</h1>
       <div className='RecentProjects-Container'>
       <div>
       <ProjectCard
