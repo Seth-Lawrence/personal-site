@@ -18,9 +18,9 @@ function About() {
     <section>
       <h1 className='About-header'>About Me</h1>
       <div className='About'>
-          Hi, I’m Seth, and I'm a software engineer and got my start in
-          localization and analytics. In my previous roles, it's always
-          been important to me to continually learn and grow my skills
+          Hi, I’m Seth! I'm a software engineer with a background in
+          product. I got my start in localization and product analytics.
+          In my previous roles, it's always been important to me to continually learn and grow my skills
           as well as my impact, and eventually I was writing functions
           to gather information from hundreds of thousands of lines
           of raw data and building reports from them, and determining
