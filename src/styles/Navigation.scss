@@ -10,7 +10,7 @@
 
 .Navigation {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -26,5 +26,5 @@
 }
 
 .Navigation a:hover {
-  box-shadow: 0rem 0rem 1rem white;
+  color: red;
 }
