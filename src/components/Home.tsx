@@ -1,5 +1,5 @@
 import ProfilePicture from './ProfilePicture';
-import RecentProjects from './RecentProjects';
+// import RecentProjects from './RecentProjects';
 
 
 import '../styles/Home.scss';
