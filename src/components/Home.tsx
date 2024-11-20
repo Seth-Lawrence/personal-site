@@ -20,7 +20,7 @@ function Home() {
       <div className='Home'>
         <ProfilePicture />
         <h1>Hi, I'm Seth</h1>
-        <h2>I'm a Software Engineer with a background in Product</h2>
+        <h2>I'm a Software Developer with a background in Product Analytics </h2>
         {/* <RecentProjects /> */}
       </div>
 
