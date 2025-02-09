@@ -20,7 +20,7 @@ import { BrowserRouter } from 'react-router-dom';
  * App => Navigation, ProfilePicture, LeftNav, { Home, About, skills, projects }
  */
 
-function App() {
+const App = () =>  {
 
   return (
     <div className='App'>

@@ -1,7 +1,7 @@
 import '../styles/Initials.scss';
 
 
-function Initials() {
+const Initials = () => {
 
   return (
     <span className="Initials">

@@ -11,7 +11,7 @@ import '../styles/Linkedin.scss';
  * App => Navigation => Linkedin
  */
 
-function Linkedin() {
+const Linkedin = () => {
 
   return (
     <span>

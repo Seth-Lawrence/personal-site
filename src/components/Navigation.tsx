@@ -13,7 +13,7 @@ import '../styles/Navigation.scss';
  * App => Navigation => { LinkedIn, Github }
  */
 
-function Navigation() {
+const Navigation = () => {
 
   return (
   <nav className='Navigation'>

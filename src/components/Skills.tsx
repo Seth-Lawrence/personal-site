@@ -11,7 +11,7 @@ import '../styles/Skills.scss';
  *
  * App => Skills => { Languages, Technologies }
  */
-function Skills() {
+const Skills = () => {
 
   return (
       <section className='Skills'>
