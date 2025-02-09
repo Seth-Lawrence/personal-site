@@ -12,7 +12,7 @@ import '../styles/About.scss';
  *
  */
 
-function About() {
+const About = () => {
 
   return (
     <section>
