@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import '../styles/RecentProjects.scss';
 
-function RecentProjects() {
+const RecentProjects = () => {
 
   return (
     <div>

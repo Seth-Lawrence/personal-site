@@ -16,13 +16,12 @@ interface buttonProps {
  *
  */
 
-function Button(
-  { handleClick, text }: buttonProps) {
+const Button = (bp: buttonProps) => {
 
   return (
     <div className='Button-container'>
-      <button className='Button' onClick={(): void => { handleClick(text); }}>
-        {text}</button>
+      <button className='Button' onClick={(): void => { bp.handleClick(bp.text); }}>
+        {bp.text}</button>
     </div>
   );
 }

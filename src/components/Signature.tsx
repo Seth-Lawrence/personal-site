@@ -12,7 +12,7 @@ import '../styles/Signature.scss';
  * App => LeftNav => About => Signature *
  */
 
-function Signature() {
+const Signature = () => {
 
   return (
       <div className="Signature">

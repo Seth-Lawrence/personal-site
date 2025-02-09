@@ -15,7 +15,7 @@ import '../styles/Technology.scss';
  * App => Skills => Technology
  */
 
-function Technology() {
+const Technology = () => {
 
   return (
     <section className='Technology-container'>

@@ -11,9 +11,9 @@ interface ProjectCardProps {
 }
 
 
-function ProjectCard(
+const ProjectCard =(
   { title, imagePath, projDesc, imageDesc, git, demo = null }: ProjectCardProps
-) {
+) => {
 
   return (
     <div className='ProjectCard'>

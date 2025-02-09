@@ -11,7 +11,7 @@ import RecentProjects from "./RecentProjects";
  * App => Projects => Project
  */
 
-function Projects() {
+const  Projects = () => {
 
   return (
     <div>

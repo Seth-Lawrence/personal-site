@@ -10,7 +10,7 @@ import '../styles/ProfilePicture.scss';
  * App => ProfilePicture
  */
 
-function ProfilePicture() {
+const ProfilePicture = () => {
 
   return (
       <div className='ProfilePicture-container'>

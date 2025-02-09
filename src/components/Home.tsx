@@ -14,7 +14,7 @@ import '../styles/Home.scss';
  * App => Home
  */
 
-function Home() {
+const Home = () => {
 
   return (
       <div className='Home'>

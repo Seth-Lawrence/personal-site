@@ -14,7 +14,7 @@ interface leftNavProps {
  * App => LeftNav => { Button }
  */
 
-function LeftNav({ handleClick }: leftNavProps) {
+const LeftNav = ({ handleClick }: leftNavProps) => {
 
   return (
     <div className='LeftNav'>

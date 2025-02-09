@@ -11,7 +11,7 @@ import '../styles/Github.scss';
  * App => Navigation => Github
  */
 
-function Github() {
+const Github = () => {
 
   return (
     <span>
