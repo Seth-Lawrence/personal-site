@@ -14,7 +14,7 @@ const ProfilePicture = () => {
 
   return (
       <div className='ProfilePicture-container'>
-      <img className='ProfilePicture' src='profile-picture.jpg'></img>
+      <img className='ProfilePicture' src='updated-picture.jpg'></img>
       </div>
   )
 }
