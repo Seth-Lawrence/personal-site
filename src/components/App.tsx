@@ -17,7 +17,7 @@ import { BrowserRouter } from 'react-router-dom';
  *
  * state: showHome, showProjects, showResume, isLoading
  *
- * App => Navigation, ProfilePicture, LeftNav, { Home, About, skills, proje cts}
+ * App => Navigation, ProfilePicture, LeftNav, { Home, About, skills, projects}
  */
 
 const App = () => {
