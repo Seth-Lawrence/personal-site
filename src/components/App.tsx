@@ -17,10 +17,10 @@ import { BrowserRouter } from 'react-router-dom';
  *
  * state: showHome, showProjects, showResume, isLoading
  *
- * App => Navigation, ProfilePicture, LeftNav, { Home, About, skills, projects }
+ * App => Navigation, ProfilePicture, LeftNav, { Home, About, skills, projects}
  */
 
-const App = () =>  {
+const App = () => {
 
   return (
     <div className='App'>
@@ -30,7 +30,7 @@ const App = () =>  {
       <BrowserRouter>
         <Navbar><Navigation /></Navbar>
         <div className='RoutesList'>
-        <RoutesList />
+          <RoutesList />
         </div>
       </BrowserRouter>
     </div>
