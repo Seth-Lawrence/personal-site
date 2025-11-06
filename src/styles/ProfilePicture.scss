@@ -1,13 +1,13 @@
 .ProfilePicture-container {
   display: flex;
   justify-content: space-around;
-  padding-top: 3rem;
+  padding-top: .5rem;
 }
 
 .ProfilePicture {
   border-radius: 50%;
   height: 20rem;
   width: 20rem;
-  border-color: antiquewhite;
+  border-color: #000;
   border-style: solid;
 }
