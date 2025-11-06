@@ -16,13 +16,13 @@ import '../styles/Navigation.scss';
 const Navigation = () => {
 
   return (
-  <nav className='Navigation'>
-    <NavLink to='/skills'>Skills</NavLink>
-    <NavLink to='/projects'>Projects</NavLink>
-    <NavLink to='/about'>About</NavLink>
-    <NavLink to='/home'>Home</NavLink>
-  </nav>
-);
+    <nav className='Navigation'>
+      {/* <NavLink to='/skills'>Skills</NavLink> */}
+      <NavLink to='/projects'>Projects</NavLink>
+      <NavLink to='/about'>About</NavLink>
+      <NavLink to='/home'>Home</NavLink>
+    </nav>
+  );
 
 }
 
