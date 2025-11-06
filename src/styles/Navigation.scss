@@ -9,21 +9,48 @@
 // }
 
 .Navigation {
-  font-family: 'Courier New', Courier, monospace;
+  
   font-size: 1.5rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  color: #000;
+  // background-image: url(https://images.unsplash.com/photo-1448067686092-1f4f2070baae?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
 //   margin-bottom: .5rem;
 }
 
-.Navigation a {
-  border-radius: 20%;
-  font-weight: 700;
-  justify-content: center;
+// .Navigation a {
+//   border-radius: 20%;
+//   font-weight: 700;
+//   justify-content: center;
+//   text-decoration: none;
+// }
+
+// .Navigation a:hover {
+//   text-decoration: underline;
+// }
+
+a {
+  position: relative; /* Essential for positioning the pseudo-element */
+  text-decoration: none; /* Remove default underline */
+  color: #000; /* Example link color */
+  overflow: hidden; /* Important to hide the initial state of the underline */
 }
 
-.Navigation a:hover {
-  color: red;
+a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0; /* Initially hidden */
+  height: 2px; /* Underline thickness */
+  background-color: #024357; /* Underline color */
+  transition: width .8s ease-out; /* Smooth transition for width */
 }
+
+a:hover::after {
+  width: 100%; /* Expand on hover */
+}
+
