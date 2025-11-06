@@ -14,14 +14,17 @@ import '../styles/Skills.scss';
 const Skills = () => {
 
   return (
+    <>
+      
       <section className='Skills'>
-        <div>
+        <span>
           <Languages />
-        </div>
-        <div>
+        </span>
+        <span>
           <Technology />
-        </div>
+        </span>
       </section>
+    </>
   )
 }
 
