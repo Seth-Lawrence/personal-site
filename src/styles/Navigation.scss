@@ -32,14 +32,14 @@
 //   text-decoration: underline;
 // }
 
-a {
+.Navigation a {
   position: relative; /* Essential for positioning the pseudo-element */
   text-decoration: none; /* Remove default underline */
   color: #000; /* Example link color */
   overflow: hidden; /* Important to hide the initial state of the underline */
 }
 
-a::after {
+.Navigation a::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -50,7 +50,7 @@ a::after {
   transition: width .6s ease-out; /* Smooth transition for width */
 }
 
-a:hover::after {
+.Navigation a:hover::after {
   width: 100%; /* Expand on hover */
 }
 
